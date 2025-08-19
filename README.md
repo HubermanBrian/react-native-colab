@@ -34,10 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">react-native-colab</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Hecho por Brian Huberman, Ian Miglin y Tobias jajurin
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -136,7 +136,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm install
    ```
-
+4. npx expo start --tunnel
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,24 +145,35 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+## Aportes de cada integrante
+- Brian Hubeman (A): navegación y pantalla de inicio (Home).
+- Ian Miglin (B): pantalla de perfil y componentes reutilizables.
+- Tobias Jajurin (C): formulario de alta de recetas y estilos globales.
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [ ] La rama parte de `main` actualizado.
+- [ ] El PR es pequeño y enfocado.
+- [ ] Incluye descripción de qué, por qué y cómo probar.
+- [ ] Pasa linteo/formateo (si aplica).
+- [ ] No rompe navegación ni pantallas existentes.
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Reflexiones
 
+- Brian Hubeman (A): Qué aprendí sobre navegación y manejo de estado. Dificultades encontradas (p. ej., resolver conflictos de merge) y cómo las resolví.
+- Ian Miglin (B): Aprendizajes creando componentes reutilizables y manteniendo la UI consistente. Valor del code review.
+- Tobias Jajurin (C): Experiencias validando formularios y definiendo estilos globales. Qué mejoraría del flujo colaborativo.
+
+## Code Reviews realizados
+
+- Brian revisó el PR de Ian en la rama `feature/profile`.
+- Ian revisó el PR de Tobias en la rama `feature/add-recipe`.
+- Tobias revisó el PR de Brian en la rama `feature/home`.
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -177,12 +188,6 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some fearure/Home'`)
 4. Push to the Branch (`git push origin feature/Home`)
 5. Open a Pull Request
-
-### Top contributors:
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
-</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
