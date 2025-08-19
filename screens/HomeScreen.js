@@ -1,10 +1,15 @@
 import React from 'react';
 import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet } from 'react-native';
 
+// Importar imágenes directamente
+import spaghettiImage from '../assets/spaghetti.jpg';
+import chickenCurryImage from '../assets/chicken_curry.jpg';
+import chocolateCakeImage from '../assets/chocolate_cake.jpg';
+
 const recipes = [
-  { id: '1', title: 'Spaghetti Carbonara', description: 'A classic Italian pasta dish.', image: require('../assets/spaghetti.jpg') },
-  { id: '2', title: 'Chicken Curry', description: 'A spicy and flavorful dish.', image: require('../assets/chicken_curry.jpg') },
-  { id: '3', title: 'Chocolate Cake', description: 'A rich and moist dessert.', image: require('../assets/chocolate_cake.jpg') },
+  { id: '1', title: 'Spaghetti Carbonara', description: 'A classic Italian pasta dish.', image: spaghettiImage },
+  { id: '2', title: 'Chicken Curry', description: 'A spicy and flavorful dish.', image: chickenCurryImage },
+  { id: '3', title: 'Chocolate Cake', description: 'A rich and moist dessert.', image: chocolateCakeImage },
 ];
 
 const HomeScreen = ({ navigation }) => {

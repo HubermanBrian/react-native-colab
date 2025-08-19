@@ -6,7 +6,7 @@ const RecipeDetailScreen = ({ route }) => {
 
   return (
     <View style={styles.container}>
-      <Image source={{ uri: recipe.image }} style={styles.image} />
+      <Image source={recipe.image} style={styles.image} />
       <Text style={styles.title}>{recipe.title}</Text>
       <Text style={styles.description}>{recipe.description}</Text>
     </View>
