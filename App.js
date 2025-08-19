@@ -5,6 +5,7 @@ import { View, Button } from 'react-native';
 import HomeScreen from './screens/HomeScreen';
 import RecipeDetailScreen from './screens/RecipeDetailScreen';
 import ProfileScreen from './screens/ProfileScreen';
+import AddRecipeScreen from './screens/AddRecipeScreen';
 import { UserProvider } from './context/UserContext';
 
 const Stack = createStackNavigator();
@@ -30,6 +31,7 @@ export default function App() {
             />
             <Stack.Screen name="RecipeDetail" component={RecipeDetailScreen} />
             <Stack.Screen name="Profile" component={ProfileScreen} />
+            <Stack.Screen name="AddRecipe" component={AddRecipeScreen} />
           </Stack.Navigator>
         </NavigationContainer>
       </UserProvider>
