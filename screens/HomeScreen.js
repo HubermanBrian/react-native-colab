@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import { useUser } from '../context/UserContext';
 
 // Importar imágenes directamente
 import spaghettiImage from '../assets/spaghetti.jpg';
