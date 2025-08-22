@@ -4,8 +4,8 @@ const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
   const [user, setUser] = useState({
-    name: 'Usuario Demo',
-    email: 'usuario@ejemplo.com',
+    name: 'Brian Huberman',
+    email: 'brianhuberman@gmail.com',
     avatar: null, // Will use placeholder
   });
 
